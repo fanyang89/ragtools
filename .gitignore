@@ -1,0 +1,7 @@
+.idea/
+*.db
+*.exe
+.env
+__pycache__
+*.pyc
+tmp/
