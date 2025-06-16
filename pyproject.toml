@@ -1,7 +1,7 @@
 [project]
-name = "rag"
+name = "ragtools"
 version = "0.1.0"
-description = "Simple RAG (Retrieval-Augmented Generation) tool for building and querying the knowledge base"
+description = "Run RAG tools in command line"
 readme = "README.md"
 requires-python = ">=3.10"
 dependencies = [
