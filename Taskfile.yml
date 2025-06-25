@@ -1,4 +1,4 @@
-version: '3'
+version: "3"
 
 dotenv:
   - .env
@@ -31,7 +31,3 @@ tasks:
   chunking:
     cmds:
       - uv run .\rag.py chunking ./tmp/chubby-osdi06/auto/chubby-osdi06.md --output ./tmp/chubby-osdi06/auto/chubby-osdi06.md.chunks.json
-  
-  rerank:
-    cmds:
-      - uv run infinity_emb v2 --model-id "Qwen/Qwen3-Reranker-8B"
